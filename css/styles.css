@@ -10018,17 +10018,7 @@ body {
   transform: translateX(0);
 }
 .sb-sidenav-toggled #layoutSidenav #layoutSidenav_content:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #000;
-  z-index: 1037;
-  opacity: 0.5;
-  transition: opacity 0.3s ease-in-out;
+  display: none;
 }
 
 @media (min-width: 992px) {
